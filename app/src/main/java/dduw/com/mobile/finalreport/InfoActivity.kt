@@ -11,8 +11,6 @@ class InfoActivity : AppCompatActivity()  {
         super.onCreate(savedInstanceState)
         devBinding = ActivityInfoBinding.inflate(layoutInflater)
         setContentView(devBinding.root)
-
-        /*버튼 클릭 시 MainActivity로 이동*/
         devBinding.backBtn.setOnClickListener{
             finish()
         }
